@@ -17,6 +17,7 @@ Ejecutar el comando los siguientes comandos en el orden que se detalla
 4. `php artisan migrate --seed`
 
 Para configurar un usuario administrador, no realice el paso 4 y modifique el archivo `database/seeds/UserSeeder.php`
+Configurar el host para que la carpeta `root directory`  sea la carpeta public. Asignar los permisos de escritura a la carpet `storage/logs`
 
 y modifique lo siguiente: 
 `$user =  User::create([`
